@@ -1,0 +1,36 @@
+
+Steps to doing assignment:
+
+Goal: fill return address with address to first instruction of shell code
+
+1. find vulnerability
+
+    In line 150, the function casts length to type byte, any int where the last 8 bits in binary are less than 100 will pass the test.
+    To test this, we ensured that our test string's length % 256 was less than 100.
+    
+
+2. look through shell storm (linux ones), intel x86
+	we used shellstorm 882 shellcode and edited it to use port 5177
+
+3. First Guess from print statement: addr+140: 3218678412
+
+
+Structure of attack string:
+    address guess, Nop, shellcode
+
+    used 457 Nops
+
+    70 addresses 
+
+    These numbers were tweaked to ensure the length requirement
+
+once we hacked into the server, we launched the shell we created in a new terminal and used an echo command to replace the contents of index.html
+
+To find the remote address, we started with the machine address and added 457 (number of Nops) until we reached an address that worked.
+
+The project was interesting and we learned a lot about how buffer overflow attacks work. However, guessing the address was very tedious and time consuming.
+
+
+
+
+

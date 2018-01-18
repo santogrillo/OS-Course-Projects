@@ -1,0 +1,622 @@
+TIME_TO_SIMULATE=10
+<<<<<<< HEAD
+S2.1: Log { (1 1) }
+S1.1: Log { (1 1) }
+S3.1: Log { (1 1) }
+S2.1: switched to follower mode.
+S1.1: switched to follower mode.
+S3.1: switched to follower mode.
+election timeout detected by 2
+S2.2: switched to candidate mode.
+election timeout detected by 1
+S1.2: switched to candidate mode.
+election timeout detected by 3
+S3.2: switched to candidate mode.
+1 out of 3 votes for 1
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 3
+1 out of 3 votes for 1
+1 out of 3 votes for 3
+1 out of 3 votes for 2
+1 out of 3 votes for 1
+1 out of 3 votes for 2
+1 out of 3 votes for 3
+1 out of 3 votes for 1
+S2.3: switched to candidate mode.
+S1.3: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 3
+1 out of 3 votes for 1
+S3.3: switched to follower mode.
+server3 Voted for 1
+1 out of 3 votes for 2
+2 out of 3 votes for 1
+S1.3: switched to leader mode.
+server 1sending heartbeat to 1
+server 1sending heartbeat to 2
+server 1sending heartbeat to 3
+2Received heartbeat
+3received heartbeat
+S2.3: switched to follower mode.
+server 1sending heartbeat to 1
+server 1sending heartbeat to 2
+server 1sending heartbeat to 3
+2received heartbeat
+election timeout detected by 2
+S2.4: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.5: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.6: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.7: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.8: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.9: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+election timeout detected by 3
+S3.4: switched to candidate mode.
+1 out of 3 votes for 2
+S3.9: switched to follower mode.
+3received heartbeat
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.10: switched to candidate mode.
+server3 Voted for 2
+2 out of 3 votes for 2
+S2.10: switched to leader mode.
+server 2sending heartbeat to 1
+server 2sending heartbeat to 2
+server 2sending heartbeat to 3
+3received heartbeat
+server 2sending heartbeat to 1
+server 2sending heartbeat to 2
+server 2sending heartbeat to 3
+3received heartbeat
+election timeout detected by 3
+S3.11: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.12: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.13: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.14: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.15: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.16: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.17: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.18: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.19: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.20: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.21: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.22: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S2.10: Log { (1 1) }
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S3.23: switched to candidate mode.
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+1 out of 3 votes for 3
+S2.10: switched to follower mode.
+1 out of 3 votes for 3
+S3.24: switched to candidate mode.
+1 out of 3 votes for 3
+server2 Voted for 3
+2 out of 3 votes for 3
+S3.24: switched to leader mode.
+server 3sending heartbeat to 1
+server 3sending heartbeat to 2
+server 3sending heartbeat to 3
+2received heartbeat
+server 3sending heartbeat to 1
+server 3sending heartbeat to 2
+server 3sending heartbeat to 3
+2received heartbeat
+election timeout detected by 2
+S2.25: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.26: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.27: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.28: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.29: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.30: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.31: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.32: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.33: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.34: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.35: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.36: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.37: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.38: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.39: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.40: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.41: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.42: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.43: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.44: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.45: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.46: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.47: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.48: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.49: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.50: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.51: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.52: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.53: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.54: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.55: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.56: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.57: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.58: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.59: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.60: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.61: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.62: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.63: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.64: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.65: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.66: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.67: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.68: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.69: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.70: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.71: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.72: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.73: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.74: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.75: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.76: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.77: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.78: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.79: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.80: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.81: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.82: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.83: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.84: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.85: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+S2.86: switched to candidate mode.
+1 out of 3 votes for 2
+1 out of 3 votes for 2
+=======
+TIME_TO_SIMULATE=10
+>>>>>>> af67e9f2510517b9473e495265aa24cd3c1cff62
